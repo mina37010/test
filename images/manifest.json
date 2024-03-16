@@ -1,0 +1,67 @@
+{
+  "id" : "https://mina37010.github.io/test/images/manifest.json",
+  "label" : {
+    "en" : [ "All images loaded in mina37010/test project" ]
+  },
+  "type" : "Manifest",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "width" : 832,
+    "id" : "https://mina37010.github.io/test/images/flower_fox_mask/canvas/",
+    "label" : {
+      "none" : [ "flower_fox_mask" ]
+    },
+    "type" : "Canvas",
+    "items" : [ {
+      "id" : "https://mina37010.github.io/test/images/flower_fox_mask/AnnoPage/",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "motivation" : "Painting",
+        "id" : "https://mina37010.github.io/test/images/flower_fox_mask/annotation/",
+        "type" : "Annotation",
+        "body" : {
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 26,
+              "height" : 38
+            }, {
+              "width" : 52,
+              "height" : 76
+            }, {
+              "width" : 104,
+              "height" : 152
+            }, {
+              "width" : 208,
+              "height" : 304
+            }, {
+              "width" : 416,
+              "height" : 608
+            }, {
+              "width" : 832,
+              "height" : 1216
+            } ],
+            "profile" : "level0",
+            "width" : 832,
+            "id" : "https://mina37010.github.io/test/images/flower_fox_mask",
+            "type" : "ImageService3",
+            "@context" : "http://iiif.io/api/image/3/context.json",
+            "height" : 1216
+          } ],
+          "format" : "image/jpeg",
+          "width" : 832,
+          "id" : "https://mina37010.github.io/test/images/flower_fox_mask/full/max/0/default.jpg",
+          "type" : "Image",
+          "height" : 1216
+        },
+        "target" : "https://mina37010.github.io/test/images/flower_fox_mask/canvas/"
+      } ]
+    } ],
+    "height" : 1216
+  } ]
+}
