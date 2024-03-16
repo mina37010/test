@@ -1,0 +1,7 @@
+{
+  "@type" : "sc:Layer",
+  "otherContent" : [ "https://mina37010.github.io/test/annotations/173df9a478f8c1127a0f7356fcf12d86.json" ],
+  "@id" : "https://mina37010.github.io/test/annotations/collection.json",
+  "label" : "All annotations loaded in mina37010/test project",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}
