@@ -1,0 +1,75 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://mina37010.github.io/test/manifests/manifest.json",
+  "@type" : "sc:Manifest",
+  "label" : "fox_mask",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "[Click to edit description]",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "[Click to edit attribution]",
+  "sequences" : [ {
+    "@id" : "http://612a297e-c3f3-4d2a-b376-0587f67bd9f0",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://ecfb42cf-62f9-477d-836f-98da7a1331dd",
+      "@type" : "sc:Canvas",
+      "label" : "purple_fox_mask",
+      "height" : 1152,
+      "width" : 896,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://febd7d9c-7f13-467b-b20b-c6a8d5b76e38",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/1156862800/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/1156862800",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 1152,
+          "width" : 896
+        },
+        "on" : "http://ecfb42cf-62f9-477d-836f-98da7a1331dd"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://f2ea687d-e1aa-460a-a722-285c56ac18e9",
+      "@type" : "sc:Canvas",
+      "label" : "silver_fox_mask",
+      "height" : 1024,
+      "width" : 1024,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://ea30a481-ecf3-48d7-9ff1-dea91fcb0f81",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/500179-create-a-hollow-fox-mask-draped-in-darkness-xl-1024-v-1-0/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/500179-create-a-hollow-fox-mask-draped-in-darkness-xl-1024-v-1-0",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 1024,
+          "width" : 1024
+        },
+        "on" : "http://f2ea687d-e1aa-460a-a722-285c56ac18e9"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
