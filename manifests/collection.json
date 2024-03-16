@@ -1,0 +1,13 @@
+{
+  "id" : "https://mina37010.github.io/test/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in mina37010/test project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "@type" : "sc:Manifest",
+    "@id" : "https://mina37010.github.io/test/manifests/manifest.json",
+    "label" : "fox_mask"
+  } ]
+}
