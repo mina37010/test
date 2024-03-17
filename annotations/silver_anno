@@ -1,0 +1,39 @@
+{
+  "@type" : "sc:AnnotationList",
+  "resources" : [ {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "eye2",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>eye2</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1240244679/111842956103385022732",
+    "motivation" : [ "oa:commenting" ],
+    "dcterms:created" : "2024-03-17T00:43:34",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1710636214386",
+    "dcterms:modified" : "2024-03-17T00:43:34",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://mina37010.github.io/test/manifests/manifest.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=263,483,545,150"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M262.98246,483.05263h272.7193v0h272.7193v75.10526v75.10526h-272.7193h-272.7193v-75.10526z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_5c515ed7-83cd-48d1-9f79-a586d78812b3\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://f2ea687d-e1aa-460a-a722-285c56ac18e9"
+    } ]
+  } ],
+  "@id" : "https://mina37010.github.io/test/annotations/silver_anno",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}
