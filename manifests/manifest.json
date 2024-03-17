@@ -42,7 +42,11 @@
         },
         "on" : "http://ecfb42cf-62f9-477d-836f-98da7a1331dd"
       } ],
-      "related" : ""
+      "otherContent" : [ {
+        "@id" : "https://mina37010.github.io/test/annotations/purple_anno",
+        "@type" : "sc:AnnotationList",
+        "label" : "My fantastic annotations"
+      } ]
     }, {
       "@id" : "http://f2ea687d-e1aa-460a-a722-285c56ac18e9",
       "@type" : "sc:Canvas",
@@ -68,7 +72,11 @@
         },
         "on" : "http://f2ea687d-e1aa-460a-a722-285c56ac18e9"
       } ],
-      "related" : ""
+      "otherContent" : [ {
+        "@id" : "https://mina37010.github.io/test/annotations/silver_anno",
+        "@type" : "sc:AnnotationList",
+        "label" : "My fantastic annotations"
+      } ]
     } ]
   } ],
   "structures" : [ ]
